@@ -1,4 +1,4 @@
-### Hi there 👋
+### Hi, I'm seesaw game
 
 <!--
 **tjcccc/tjcccc** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
@@ -14,5 +14,11 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
+I like building small systems that make messy things easier to work with.
+
+Most of my public work sits somewhere between tools, interfaces, automation, and experiments. I care about clarity, portability, and leaving things easier to return to later.
+
+---
 
 ![seesaw game's GitHub stats](./assets/profile-stats.svg)
