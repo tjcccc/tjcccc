@@ -19,6 +19,4 @@ I like building small systems that make messy things easier to work with.
 
 Most of my public work sits somewhere between tools, interfaces, automation, and experiments. I care about clarity, portability, and leaving things easier to return to later.
 
----
-
 ![seesaw game's GitHub stats](./assets/profile-stats.svg)
