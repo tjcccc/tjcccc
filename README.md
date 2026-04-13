@@ -15,6 +15,4 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=tjcccc&rank_icon=github)](https://github.com/anuraghazra/github-readme-stats)
-
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=tjcccc&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
+![seesaw game's GitHub stats](./assets/profile-stats.svg)
