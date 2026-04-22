@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>tjcccc profile stats</title>
+    <style>
+      :root {
+        color-scheme: light dark;
+        --bg: #f5f1e8;
+        --fg: #1f2328;
+        --muted: #5f6b76;
+        --card: rgba(255, 255, 255, 0.8);
+        --border: rgba(31, 35, 40, 0.12);
+        --accent: #0b6bcb;
+      }
+
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --bg: #11161c;
+          --fg: #edf2f7;
+          --muted: #98a6b3;
+          --card: rgba(17, 22, 28, 0.86);
+          --border: rgba(237, 242, 247, 0.14);
+          --accent: #5ab1ff;
+        }
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        min-height: 100vh;
+        font-family: "Segoe UI", -apple-system, BlinkMacSystemFont, sans-serif;
+        color: var(--fg);
+        background:
+          radial-gradient(circle at top left, rgba(255, 255, 255, 0.9), transparent 36%),
+          linear-gradient(135deg, var(--bg), #dde7ef);
+        display: grid;
+        place-items: center;
+        padding: 24px;
+      }
+
+      main {
+        width: min(960px, 100%);
+        background: var(--card);
+        border: 1px solid var(--border);
+        border-radius: 20px;
+        backdrop-filter: blur(10px);
+        padding: 28px;
+        box-shadow: 0 16px 60px rgba(15, 23, 42, 0.12);
+      }
+
+      h1 {
+        margin: 0 0 8px;
+        font-size: clamp(28px, 4vw, 44px);
+        line-height: 1.05;
+      }
+
+      p {
+        margin: 0 0 16px;
+        color: var(--muted);
+        font-size: 16px;
+        line-height: 1.6;
+      }
+
+      code {
+        font-family: "SFMono-Regular", ui-monospace, monospace;
+        font-size: 0.95em;
+      }
+
+      .preview {
+        margin-top: 22px;
+        display: block;
+        width: 100%;
+        overflow: auto;
+      }
+
+      img {
+        width: 100%;
+        height: auto;
+        display: block;
+        border-radius: 12px;
+        border: 1px solid var(--border);
+        background: white;
+      }
+
+      a {
+        color: var(--accent);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Profile stats service</h1>
+      <p>This deployment serves a GitHub profile stats SVG at <code>/profile-stats.svg</code>.</p>
+      <p>Use that URL in your GitHub profile README after deploying this repo to Vercel.</p>
+      <a href="/profile-stats.svg">Open the SVG directly</a>
+      <div class="preview">
+        <img src="/profile-stats.svg" alt="Profile stats preview" />
+      </div>
+    </main>
+  </body>
+  </html>
