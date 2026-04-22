@@ -1,10 +1,13 @@
 #!/usr/bin/env node
 
 import { mkdir, writeFile } from "node:fs/promises";
+import path from "node:path";
+import { fileURLToPath } from "node:url";
 
 const USERNAME = process.env.PROFILE_USERNAME || "tjcccc";
 const DISPLAY_NAME = process.env.PROFILE_DISPLAY_NAME || "seesaw game";
-const OUT_DIR = new URL("../assets/", import.meta.url);
+const DEFAULT_OUTPUT_PATH = fileURLToPath(new URL("../assets/profile-stats.svg", import.meta.url));
+const OUTPUT_PATH = path.resolve(process.cwd(), process.env.PROFILE_STATS_OUTPUT || DEFAULT_OUTPUT_PATH);
 const API_ROOT = "https://api.github.com";
 
 const requestHeaders = {
@@ -165,8 +168,8 @@ async function main() {
     }
   }
 
-  await mkdir(OUT_DIR, { recursive: true });
-  await writeFile(new URL("profile-stats.svg", OUT_DIR), combinedCard(user, repos, languageTotals), "utf8");
+  await mkdir(path.dirname(OUTPUT_PATH), { recursive: true });
+  await writeFile(OUTPUT_PATH, combinedCard(user, repos, languageTotals), "utf8");
 }
 
 main().catch((error) => {
