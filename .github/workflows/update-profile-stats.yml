@@ -1,4 +1,4 @@
-name: Deploy profile stats
+name: Update profile stats
 
 on:
   workflow_dispatch:
@@ -6,26 +6,18 @@ on:
     - cron: "17 3 * * *"
 
 permissions:
-  contents: read
-  pages: write
-  id-token: write
+  contents: write
 
 concurrency:
-  group: profile-stats-pages
+  group: profile-stats
   cancel-in-progress: true
 
 jobs:
-  deploy-profile-stats:
+  update-profile-stats:
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
-
-      - name: Set up Pages
-        uses: actions/configure-pages@v5
 
       - name: Set up Node.js
         uses: actions/setup-node@v4
@@ -38,13 +30,16 @@ jobs:
           GITHUB_TOKEN: ${{ github.token }}
           PROFILE_USERNAME: tjcccc
           PROFILE_DISPLAY_NAME: seesaw game
-          PROFILE_STATS_OUTPUT: dist/profile-stats.svg
+          PROFILE_STATS_OUTPUT: assets/profile-stats.svg
 
-      - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: dist
+      - name: Commit updated SVG
+        run: |
+          if git diff --quiet -- assets/profile-stats.svg; then
+            exit 0
+          fi
 
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/profile-stats.svg
+          git commit -m "chore(profile): update stats card"
+          git push

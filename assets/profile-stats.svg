@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="880" height="245" viewBox="0 0 880 245" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">seesaw game&apos;s GitHub stats</title>
+  <desc id="desc">Public GitHub profile statistics and top languages generated from the GitHub API.</desc>
+  <style>
+    .card { fill: #ffffff; }
+    .border { stroke: #d0d7de; }
+    .divider { stroke: #d8dee4; }
+    .title { fill: #24292f; font: 700 22px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    .section { fill: #24292f; font: 700 15px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    .muted { fill: #57606a; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    .strong { fill: #24292f; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    .small { font-size: 14px; }
+    .value { font-size: 16px; font-weight: 700; }
+    .percent { font-size: 13px; font-weight: 700; }
+    .bar-bg { fill: #eaeef2; }
+
+    @media (prefers-color-scheme: dark) {
+      .card { fill: #0d1117; }
+      .border { stroke: #30363d; }
+      .divider { stroke: #30363d; }
+      .title { fill: #f0f6fc; }
+      .section { fill: #f0f6fc; }
+      .muted { fill: #8b949e; }
+      .strong { fill: #f0f6fc; }
+      .bar-bg { fill: #21262d; }
+    }
+  </style>
+  <rect width="880" height="245" rx="8" class="card"/>
+  <rect x="0.5" y="0.5" width="879" height="244" rx="7.5" class="border"/>
+  <text x="32" y="43" class="title">seesaw game&apos;s GitHub stats</text>
+  <line x1="410" y1="62" x2="410" y2="210" class="divider"/>
+  <text x="38" y="78" class="muted small">Public repos</text>
+  <text x="294" y="78" class="strong value" text-anchor="end">29</text>
+  <text x="38" y="109" class="muted small">Stars received</text>
+  <text x="294" y="109" class="strong value" text-anchor="end">41</text>
+  <text x="38" y="140" class="muted small">Forks received</text>
+  <text x="294" y="140" class="strong value" text-anchor="end">9</text>
+  <text x="38" y="171" class="muted small">Followers</text>
+  <text x="294" y="171" class="strong value" text-anchor="end">41</text>
+  <text x="38" y="202" class="muted small">Following</text>
+  <text x="294" y="202" class="strong value" text-anchor="end">30</text>
+  <circle cx="450" cy="73" r="5" fill="#0969DA"/>
+  <text x="466" y="78" class="muted small">C#</text>
+  <rect x="590" y="64" width="170" height="8" rx="4" class="bar-bg"/>
+  <rect x="590" y="64" width="170" height="8" rx="4" fill="#0969DA"/>
+  <text x="844" y="78" class="strong percent" text-anchor="end">41.6%</text>
+  <circle cx="450" cy="99" r="5" fill="#1A7F37"/>
+  <text x="466" y="104" class="muted small">Python</text>
+  <rect x="590" y="90" width="170" height="8" rx="4" class="bar-bg"/>
+  <rect x="590" y="90" width="96" height="8" rx="4" fill="#1A7F37"/>
+  <text x="844" y="104" class="strong percent" text-anchor="end">23.5%</text>
+  <circle cx="450" cy="125" r="5" fill="#CF222E"/>
+  <text x="466" y="130" class="muted small">Swift</text>
+  <rect x="590" y="116" width="170" height="8" rx="4" class="bar-bg"/>
+  <rect x="590" y="116" width="52" height="8" rx="4" fill="#CF222E"/>
+  <text x="844" y="130" class="strong percent" text-anchor="end">12.7%</text>
+  <circle cx="450" cy="151" r="5" fill="#9A6700"/>
+  <text x="466" y="156" class="muted small">Rust</text>
+  <rect x="590" y="142" width="170" height="8" rx="4" class="bar-bg"/>
+  <rect x="590" y="142" width="44" height="8" rx="4" fill="#9A6700"/>
+  <text x="844" y="156" class="strong percent" text-anchor="end">10.9%</text>
+  <circle cx="450" cy="177" r="5" fill="#8250DF"/>
+  <text x="466" y="182" class="muted small">ShaderLab</text>
+  <rect x="590" y="168" width="170" height="8" rx="4" class="bar-bg"/>
+  <rect x="590" y="168" width="26" height="8" rx="4" fill="#8250DF"/>
+  <text x="844" y="182" class="strong percent" text-anchor="end">6.4%</text>
+  <circle cx="450" cy="203" r="5" fill="#1B7C83"/>
+  <text x="466" y="208" class="muted small">TypeScript</text>
+  <rect x="590" y="194" width="170" height="8" rx="4" class="bar-bg"/>
+  <rect x="590" y="194" width="20" height="8" rx="4" fill="#1B7C83"/>
+  <text x="844" y="208" class="strong percent" text-anchor="end">4.9%</text>
+</svg>
