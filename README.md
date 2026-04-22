@@ -20,7 +20,3 @@ I like building small systems that make messy things easier to work with.
 Most of my public work sits somewhere between tools, interfaces, automation, and experiments. I care about clarity, portability, and leaving things easier to return to later.
 
 ![seesaw game's GitHub stats](https://tjcccc-profile-stats.vercel.app/profile-stats.svg)
-
-The profile stats card is served by a Vercel deployment at `https://tjcccc-profile-stats.vercel.app/profile-stats.svg`.
-
-This repo also includes a Vercel-ready stats service that serves the same card at `/profile-stats.svg`. After deploying it, replace the image URL above with your Vercel deployment URL if you want the card to update without repo commits.
