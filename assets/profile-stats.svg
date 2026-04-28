@@ -44,30 +44,30 @@
   <text x="466" y="78" class="muted small">C#</text>
   <rect x="590" y="64" width="170" height="8" rx="4" class="bar-bg"/>
   <rect x="590" y="64" width="170" height="8" rx="4" fill="#0969DA"/>
-  <text x="844" y="78" class="strong percent" text-anchor="end">31.9%</text>
+  <text x="844" y="78" class="strong percent" text-anchor="end">31.6%</text>
   <circle cx="450" cy="99" r="5" fill="#1A7F37"/>
   <text x="466" y="104" class="muted small">Python</text>
   <rect x="590" y="90" width="170" height="8" rx="4" class="bar-bg"/>
   <rect x="590" y="90" width="163" height="8" rx="4" fill="#1A7F37"/>
-  <text x="844" y="104" class="strong percent" text-anchor="end">30.7%</text>
+  <text x="844" y="104" class="strong percent" text-anchor="end">30.4%</text>
   <circle cx="450" cy="125" r="5" fill="#CF222E"/>
   <text x="466" y="130" class="muted small">TypeScript</text>
   <rect x="590" y="116" width="170" height="8" rx="4" class="bar-bg"/>
-  <rect x="590" y="116" width="65" height="8" rx="4" fill="#CF222E"/>
-  <text x="844" y="130" class="strong percent" text-anchor="end">12.3%</text>
+  <rect x="590" y="116" width="69" height="8" rx="4" fill="#CF222E"/>
+  <text x="844" y="130" class="strong percent" text-anchor="end">12.8%</text>
   <circle cx="450" cy="151" r="5" fill="#9A6700"/>
   <text x="466" y="156" class="muted small">Rust</text>
   <rect x="590" y="142" width="170" height="8" rx="4" class="bar-bg"/>
-  <rect x="590" y="142" width="55" height="8" rx="4" fill="#9A6700"/>
-  <text x="844" y="156" class="strong percent" text-anchor="end">10.3%</text>
+  <rect x="590" y="142" width="57" height="8" rx="4" fill="#9A6700"/>
+  <text x="844" y="156" class="strong percent" text-anchor="end">10.6%</text>
   <circle cx="450" cy="177" r="5" fill="#8250DF"/>
   <text x="466" y="182" class="muted small">Swift</text>
   <rect x="590" y="168" width="170" height="8" rx="4" class="bar-bg"/>
   <rect x="590" y="168" width="53" height="8" rx="4" fill="#8250DF"/>
-  <text x="844" y="182" class="strong percent" text-anchor="end">9.9%</text>
+  <text x="844" y="182" class="strong percent" text-anchor="end">9.8%</text>
   <circle cx="450" cy="203" r="5" fill="#1B7C83"/>
   <text x="466" y="208" class="muted small">ShaderLab</text>
   <rect x="590" y="194" width="170" height="8" rx="4" class="bar-bg"/>
   <rect x="590" y="194" width="26" height="8" rx="4" fill="#1B7C83"/>
-  <text x="844" y="208" class="strong percent" text-anchor="end">4.9%</text>
+  <text x="844" y="208" class="strong percent" text-anchor="end">4.8%</text>
 </svg>
